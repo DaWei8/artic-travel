@@ -1,0 +1,607 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    max-width: 1400px;
+}
+
+:root {
+    --default-blue: #3E86F5;
+}
+
+img {
+    /* max-width: 500px; */
+}
+
+html {
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+
+.default-button {
+    width: fit-content;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 14px 51px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.artic__container {
+    /* width: 1400px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.artic__navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artic__navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px 120px;
+}
+
+.artic__navbar-container {
+
+}
+
+.artic__navbar-company-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artic__navbar-company-logo h3 {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.artic__navbar-company-logo img {
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.artic__navbar ul {
+    display: flex;
+}
+
+.artic__navbar li {
+    color: #fff;
+    margin-inline: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.artic__navbar button {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 14px 51px;
+    color: #154cc4;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.artic__hero-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.artic__hero-section-content {
+    position: relative;
+    z-index: -1;
+    background: url('./asset/images/mountain.jpg');
+    background-position: b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 300px;
+    padding-bottom: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.artic__hero-section-content h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+
+.artic__hero-section-content p {
+    width: 500px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 155%;
+    text-align: center;
+}
+
+/* Artic Partners */
+
+.artic__partners-section {
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.artic__partners-section ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artic__partners-section li {
+    padding-inline: 60px;
+}
+
+
+/* Quick Links */
+
+.artic__quick-links {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+}
+
+.artic__quick-links_container {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 40px 25px;
+    width: fit-content;
+    box-shadow: 0px 134px 193px rgba(183, 183, 183, 0.07), 0px 16.7789px 24.1666px rgba(183, 183, 183, 0.035);
+    border-radius: 16px;
+}
+
+.artic__quick-links .quick-link {
+    width: 220px;
+}
+
+.quick-link_header {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.quick-link_header h3 {
+    margin-left: 15px;
+}
+
+.quick-link_drop-down {
+    display: flex;
+}
+
+.artic__quick-links button {
+    display: flex;
+    align-items: center;
+    background: var(--default-blue);
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.artic__quick-links button img {
+    margin-left: 12px;
+}
+
+.quick-link_drop-down img {
+    margin-left: 12px;
+}
+
+
+/* Artic Region Section */
+
+.artic__regions-section {
+    position: relative;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.artic__regions-section_introduction {
+    background: url('./asset/images/world-map.png');
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.artic__regions-section_introduction h1 {
+    width: 700px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 135%;
+    /* or 54px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+
+.artic__regions-section_introduction h1 span {
+    color: var(--default-blue);
+}
+
+.artic__regions-section_introduction p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    width: 600px;
+    text-align: center;
+
+    margin-bottom: 160px;
+}
+
+.artic__regions-section_introduction h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.artic__regions-container {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+.artic__region {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    max-height: 1024px;
+    margin-bottom: 100px;
+
+}
+
+.artic__region .artic__region-image {
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    height: fit-content;
+    z-index: -1;
+    background: #072a5f3d;
+}
+
+.artic__region-information {
+    display: flex;
+    flex-direction: column;
+    padding: 250px 120px;
+    color: #fff;
+}
+
+.artic__region-information img {
+    margin-bottom: 24px;
+    padding: 25px;
+    background: var(--default-blue);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.artic__region-information h1 {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 108px;
+    letter-spacing: -0.02em;
+}
+
+.artic__region-information p {
+    width: 500px;
+    margin-bottom: 44px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+}
+
+.artic__region-information button {
+    font-size: 16px;
+    margin-bottom: 52px;
+    background: var(--default-blue);
+    color: #fff;
+}
+
+.artic__resorts-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 1800px;
+    padding-inline: 120px;
+    padding-top: 100px;
+    width: 100vw;
+}
+
+.artic__resorts-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.artic__resorts-container h1 {
+    align-self: flex-start;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 135%;
+    margin-bottom: 72px;
+    width: 570px;
+}
+
+.artic__resorts-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1800px;
+}
+
+.artic__resort {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+
+    align-self: flex-end;
+    margin-bottom: 30px;
+    padding-inline: 24px;
+    width: 484px;
+    height: 711px;
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.artic__resort img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.artic__resort h2 {
+    align-self: flex-start;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 16px;
+}
+
+.artic__resort p {
+    align-self: flex-start;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+.artic__resort button {
+    margin-bottom: 65px;
+    width: 100%;
+    background: var(--default-blue);
+    color: #fff;
+}
+
+/* Artic Passes Section */
+
+.artic__passes-section {
+    padding: 158px 120px 250px;
+    color: #fff;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./asset/images/snowboard-3.jpg);
+
+
+}
+
+.artic__passes-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.artic__passes-container h1 {
+    width: 1000px;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 108px;
+    margin-bottom: 70px;
+
+}
+
+.artic__passes-container button {
+    background: var(--default-blue);
+    color: #fff;
+}
+
+.artic__footer-section {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 80px 120px 65px;
+}
+
+.artic__footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+.artic__footer-company {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.artic__footer-company-logo {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px dotted black;
+    border-radius: 50%;
+    width: fit-content;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.artic__footer-company-logo img {}
+
+.artic__footer-company h2 {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.artic__footer-company p {
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 170%;
+}
+
+.artic__footer-company-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.artic__footer-company-socials i {
+    padding: 20px;
+    border: 1px solid rgb(199, 203, 206);
+    border-radius: 50%;
+    width: fit-content;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.artic__footer-company-socials img {
+    width: 16px;
+    height: 16px;
+
+}
+
+.artic__footer-links {
+    display: flex;
+}
+
+.artic__footer-link_section {
+    width: 200px;
+}
+
+.artic__footer-link_section h3 {
+    color: var(--default-blue);
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.artic__footer-link_section ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.artic__footer-link_section li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px
+}
+
+.artic__footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.artic__footer-bottom .terms-and-conds {
+    display: flex;
+    justify-content: space-between;
+}
